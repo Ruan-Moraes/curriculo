@@ -2,20 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-
-  <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-  />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
           name="description"
-          content="Currículo de Ruan Moraes Santos Barbosa, Desenvolvedor de Software Full Stack com experiência em Java, Spring Boot, .NET, React, Next.js, React Native, SQL e Azure."
+          content="Currículo de Ruan Moraes Santos Barbosa, Desenvolvedor de Software Full Stack com experiência em Java, Spring Boot, .NET, React, React Native, SQL e Microsoft Azure."
   />
-
-  <title>
-    Ruan Moraes Santos Barbosa | Desenvolvedor de Software Full Stack
-  </title>
+  <title>Ruan Moraes Santos Barbosa | Desenvolvedor de Software Full Stack</title>
 
   <style>
     :root {
@@ -32,7 +24,8 @@
       box-sizing: border-box;
     }
 
-    html {
+    html,
+    body {
       background: #fff;
     }
 
@@ -40,84 +33,66 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      padding: 26px 40px;
-
-      font-family:
-              Arial,
-              Helvetica,
-              sans-serif;
+      padding: 22px 34px;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 9.7pt;
-      line-height: 1.3;
+      line-height: 1.29;
       color: var(--text-color);
-      background: #fff;
     }
 
     header {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     h1 {
-      margin-bottom: 2px;
-
-      font-size: 21pt;
+      margin-bottom: 1px;
+      font-size: 20.5pt;
       font-weight: 700;
       line-height: 1.05;
       color: var(--primary-color);
     }
 
     .professional-title {
-      margin-bottom: 6px;
-
-      font-size: 11.5pt;
+      margin-bottom: 3px;
+      font-size: 11.2pt;
       font-weight: 600;
       color: var(--secondary-color);
     }
 
     .contact-section {
-      font-size: 9.2pt;
-      line-height: 1.4;
+      font-size: 9.1pt;
+      line-height: 1.34;
     }
 
     .contact-section p {
-      margin: 0 0 2px;
-      text-align: left;
+      margin: 0 0 1px;
     }
 
-    .contact-section a {
+    a {
       color: var(--text-color);
       text-decoration: none;
     }
 
-    main {
-      width: 100%;
-    }
-
     section {
-      margin-bottom: 12px;
+      margin-bottom: 9px;
       break-inside: avoid;
       page-break-inside: avoid;
     }
 
     h2 {
-      margin-bottom: 5px;
-      padding-bottom: 2px;
+      margin-bottom: 4px;
+      padding-bottom: 1.5px;
       border-bottom: 1px solid var(--border-color);
-
-      font-size: 10.8pt;
+      font-size: 10.7pt;
       font-weight: 700;
-      line-height: 1.15;
+      line-height: 1.1;
       color: var(--primary-color);
-
       text-transform: uppercase;
-      letter-spacing: 0.4px;
+      letter-spacing: 0.35px;
     }
 
     p {
-      margin-bottom: 5px;
-    }
-
-    .professional-summary {
-      text-align: left;
+      margin-bottom: 3px;
     }
 
     article {
@@ -148,41 +123,24 @@
 
     .job-details,
     .project-details {
-      margin-bottom: 4px;
-
-      font-size: 9.2pt;
+      margin-bottom: 3px;
+      font-size: 9pt;
       color: var(--muted-color);
     }
 
     ul {
-      margin: 0 0 0 16px;
+      margin: 0 0 0 15px;
       padding: 0;
     }
 
     li {
-      margin-bottom: 3px;
+      margin-bottom: 2px;
       padding-left: 1px;
     }
 
-    .continued-experience {
-      margin-left: 0;
-      list-style: none;
-    }
-
-    .continued-experience li {
-      position: relative;
-      padding-left: 17px;
-    }
-
-    .continued-experience li::before {
-      position: absolute;
-      left: 1px;
-      content: "•";
-    }
-
     .skills-item {
-      margin-bottom: 2px;
-      line-height: 1.3;
+      margin-bottom: 1.2px;
+      line-height: 1.25;
     }
 
     .skills-item strong,
@@ -190,30 +148,13 @@
       color: var(--primary-color);
     }
 
-    .project-link {
-      color: var(--text-color);
-      text-decoration: none;
-    }
-
     .education-item {
-      margin-bottom: 1px;
-    }
-
-    #experiencia-profissional,
-    #experiencia-profissional article {
-      break-inside: auto;
-      page-break-inside: auto;
-    }
-
-    #projetos-pessoais,
-    #projetos-pessoais article {
-      break-inside: avoid;
-      page-break-inside: avoid;
+      margin-bottom: 0;
     }
 
     @page {
       size: A4;
-      margin: 9mm 11mm;
+      margin: 7mm 10mm;
     }
 
     @media print {
@@ -221,8 +162,8 @@
         max-width: none;
         margin: 0;
         padding: 0;
-
-        font-size: 9.45pt;
+        font-size: 9.65pt;
+        line-height: 1.3;
         print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
       }
@@ -232,12 +173,7 @@
       }
 
       h2 {
-        font-size: 10.5pt;
-      }
-
-      a {
-        color: var(--text-color);
-        text-decoration: none;
+        font-size: 10.6pt;
       }
 
       section,
@@ -245,14 +181,6 @@
         break-inside: avoid;
         page-break-inside: avoid;
       }
-
-      #experiencia-profissional,
-      #experiencia-profissional article {
-        break-inside: auto;
-        page-break-inside: auto;
-      }
-
-
     }
   </style>
 </head>
@@ -260,37 +188,23 @@
 <body>
 <header>
   <h1>Ruan Moraes Santos Barbosa</h1>
-
   <p class="professional-title">
-    Desenvolvedor Full Stack | Java, Spring Boot, .NET, React,
-    Next.js e React Native
+    Desenvolvedor de Software Full Stack | Java, Spring Boot, .NET e React
   </p>
 
   <div class="contact-section">
     <p>
       Belo Horizonte, MG |
-      <strong>Telefone:</strong> <a href="tel:+5531993112958">(31) 99311-2958</a> |
-      <strong>E-mail:</strong> <a href="mailto:ruanmoraessantosbarbosa@gmail.com">ruanmoraessantosbarbosa@gmail.com</a>
+      <strong>Telefone:</strong>
+      <a href="tel:+5531993112958">(31) 99311-2958</a> |
+      <strong>E-mail:</strong>
+      <a href="mailto:ruanmoraessantosbarbosa@gmail.com">ruanmoraessantosbarbosa@gmail.com</a>
     </p>
-
     <p>
       <strong>GitHub:</strong>
-      <a
-              href="https://github.com/Ruan-Moraes"
-              target="_blank"
-              rel="noopener noreferrer"
-      >
-        github.com/Ruan-Moraes
-      </a>
-      |
+      <a href="https://github.com/Ruan-Moraes">github.com/Ruan-Moraes</a> |
       <strong>Portfólio:</strong>
-      <a
-              href="https://portifolio-2026.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-      >
-        portfolio-2026.vercel.app
-      </a>
+      <a href="https://portifolio-2026.vercel.app">portfolio-2026.vercel.app</a>
     </p>
   </div>
 </header>
@@ -298,187 +212,81 @@
 <main>
   <section id="resumo-profissional">
     <h2>Resumo Profissional</h2>
-
-    <p class="professional-summary">
-      Desenvolvedor de Software Full Stack com mais de 2 anos de experiência
-      no desenvolvimento, manutenção e sustentação de aplicações web e
-      mobile. Atuação com Java, Spring Boot, C#, .NET, React, Next.js,
-      TypeScript, React Native e Expo. Experiência na implementação de
-      funcionalidades, integração de APIs, correção de bugs, otimização de
-      consultas SQL, publicação de aplicativos Android e iOS e atuação em
-      pipelines de CI/CD no Microsoft Azure. Conhecimentos práticos em
-      bancos de dados relacionais e NoSQL, Redis, mensageria, Docker,
+    <p>
+      Desenvolvedor de Software Full Stack com mais de 2 anos de experiência no desenvolvimento,
+      manutenção e sustentação de aplicações web e mobile. Atuação com Java, Spring Boot, C#,
+      .NET, React, Next.js, TypeScript, React Native e Expo. Experiência na implementação de
+      funcionalidades, integração de APIs, correção de bugs, otimização de consultas SQL,
+      publicação de aplicativos Android e iOS e pipelines de CI/CD no Microsoft Azure.
+      Conhecimentos práticos em bancos relacionais e NoSQL, Redis, mensageria, Docker,
       testes automatizados e arquitetura de software.
     </p>
   </section>
 
   <section id="competencias-tecnicas">
     <h2>Competências Técnicas</h2>
-
-    <div>
-      <p class="skills-item"><strong>Linguagens:</strong> Java, C#, TypeScript, JavaScript, SQL</p>
-      <p class="skills-item"><strong>Backend:</strong> Spring Boot, Spring Data JPA, Spring Security, Spring HATEOAS, ASP.NET Core, Entity Framework Core, Node.js</p>
-      <p class="skills-item"><strong>Frontend:</strong> React, Next.js, AngularJS, Tailwind CSS, Sass, Bootstrap, Handlebars</p>
-      <p class="skills-item"><strong>Mobile:</strong> React Native, Expo, Ionic, SQLite, Android, iOS</p>
-      <p class="skills-item"><strong>APIs e integrações:</strong> REST, OpenAPI, Swagger, Keycloak, Webhooks, WebSockets, I18n</p>
-      <p class="skills-item"><strong>Bancos de dados e cache:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, SQLite, H2, Redis, Flyway, Mongock</p>
-      <p class="skills-item"><strong>Testes:</strong> JUnit, Mockito, Vitest</p>
-      <p class="skills-item"><strong>DevOps e cloud:</strong> Microsoft Azure, CI/CD, Docker, Docker Compose, Git</p>
-      <p class="skills-item"><strong>Arquitetura e práticas:</strong> Clean Architecture, Arquitetura Hexagonal, MVC, Feature-Based Architecture, SOLID, Clean Code, Design Patterns</p>
-      <p class="skills-item"><strong>Inteligência artificial aplicada:</strong> ChatGPT, Claude, Gemini, MCP, Ollama, LM Studio</p>
-    </div>
+    <p class="skills-item"><strong>Linguagens:</strong> Java, C#, TypeScript, JavaScript e SQL</p>
+    <p class="skills-item"><strong>Backend:</strong> Spring Boot, Spring Data JPA, Spring Security, Spring HATEOAS, ASP.NET Core, Entity Framework Core e Node.js</p>
+    <p class="skills-item"><strong>Frontend:</strong> React, Next.js, AngularJS, Tailwind CSS, Sass, Bootstrap e Handlebars</p>
+    <p class="skills-item"><strong>Mobile:</strong> React Native, Expo, Ionic e publicação para Android e iOS</p>
+    <p class="skills-item"><strong>APIs e integrações:</strong> REST, OpenAPI/Swagger, Keycloak, Webhooks, WebSockets e I18n</p>
+    <p class="skills-item"><strong>Bancos de dados e cache:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, SQLite, H2, Redis, Flyway e Mongock</p>
+    <p class="skills-item"><strong>Mensageria:</strong> RabbitMQ e conhecimentos em Apache Kafka</p>
+    <p class="skills-item"><strong>Testes:</strong> JUnit, Mockito, Vitest e Testcontainers</p>
+    <p class="skills-item"><strong>DevOps e cloud:</strong> Microsoft Azure, CI/CD, Docker, Docker Compose e Git</p>
+    <p class="skills-item"><strong>Arquitetura e práticas:</strong> Clean Architecture, Arquitetura Hexagonal, MVC, Feature-Sliced Design, SOLID, Clean Code e Design Patterns</p>
   </section>
 
   <section id="experiencia-profissional">
     <h2>Experiência Profissional</h2>
-
     <article>
       <div class="job-heading">
         <span class="company-name">CAPYS</span>
         <span>—</span>
         <span class="job-title">Desenvolvedor de Software</span>
       </div>
-
-      <p class="job-details">
-        Abril de 2025 – atual | Belo Horizonte, MG | Tempo integral |
-        Presencial
-      </p>
+      <p class="job-details">Abril de 2025 – atual | Belo Horizonte, MG | Tempo integral | Presencial</p>
 
       <ul>
-        <li>
-          Desenvolvimento e manutenção de sistemas CRM, portais web,
-          aplicações internas e aplicativos móveis para empresas do setor
-          imobiliário.
-        </li>
-
-        <li>
-          Implementação e evolução de funcionalidades no backend e frontend,
-          considerando regras de negócio, integrações entre sistemas e
-          necessidades dos clientes.
-        </li>
-
-        <li>
-          Investigação e correção de bugs em aplicações web e mobile, desde
-          a identificação da causa até a validação e publicação da solução.
-        </li>
-
-        <li>
-          Otimização de consultas, procedures e rotinas em SQL Server por
-          meio da análise de planos de execução, aplicação antecipada de
-          filtros, ordenação de joins, revisão de índices e estatísticas.
-        </li>
-
-        <li>
-          Desenvolvimento, manutenção e evolução de aplicativos Android e
-          iOS utilizando React Native, Expo, Ionic e AngularJS.
-        </li>
-      </ul>
-
-      <ul class="continued-experience">
-        <li>
-          Preparação, validação e publicação de novas versões de aplicativos
-          na Google Play Store e Apple App Store.
-        </li>
-
-        <li>
-          Utilização de SQLite para persistência local de dados em
-          aplicativos móveis e Redis para cache.
-        </li>
-
-        <li>
-          Desenvolvimento e manutenção de interfaces web utilizando React,
-          Next.js, TypeScript e JavaScript.
-        </li>
-
-        <li>
-          Atuação em pipelines de CI/CD no Microsoft Azure, envolvendo
-          processos de build, validação e deploy.
-        </li>
-
-        <li>
-          Desenvolvimento e consumo de APIs REST, integrações e Webhooks.
-        </li>
-
-        <li>
-          Suporte técnico aos times de N1 e N2 na investigação de incidentes
-          e resolução de problemas em ambientes de produção.
-        </li>
+        <li>Desenvolvimento e manutenção de sistemas CRM, portais web, aplicações internas e aplicativos móveis para empresas do setor imobiliário.</li>
+        <li>Implementação e evolução de funcionalidades no backend e frontend, considerando regras de negócio, integrações entre sistemas e necessidades dos clientes.</li>
+        <li>Investigação e correção de bugs em aplicações web e mobile, desde a análise da causa até a validação e publicação da solução.</li>
+        <li>Otimização de consultas, procedures e rotinas em SQL Server por meio da análise de planos de execução, revisão de filtros, joins, índices e estatísticas.</li>
+        <li>Desenvolvimento, manutenção e publicação de aplicativos Android e iOS com React Native, Expo, Ionic, AngularJS e SQLite.</li>
+        <li>Desenvolvimento de interfaces web com React e TypeScript, além de APIs REST, integrações, Webhooks e utilização de Redis.</li>
+        <li>Atuação em pipelines de CI/CD no Microsoft Azure e suporte aos times de N1 e N2 na resolução de incidentes em produção.</li>
       </ul>
     </article>
   </section>
 
-  <section id="projetos-pessoais">
+  <section id="projeto-pessoal">
     <h2>Projeto Pessoal</h2>
-
     <article>
       <div class="project-heading">
         <span class="project-name">Manga Reader</span>
         <span>—</span>
-        <span class="project-type">
-              Plataforma web e mobile para leitura de mangás
-            </span>
+        <span class="project-type">Plataforma web e mobile para leitura de mangás</span>
       </div>
-
       <p class="project-details">
         Repositório:
-        <a
-                class="project-link"
-                href="https://github.com/Ruan-Moraes/Manga-Reader"
-                target="_blank"
-                rel="noopener noreferrer"
-        >
-          github.com/Ruan-Moraes/Manga-Reader
-        </a>
+        <a href="https://github.com/Ruan-Moraes/Manga-Reader">github.com/Ruan-Moraes/Manga-Reader</a>
       </p>
 
       <ul>
-        <li>
-          Desenvolvimento de uma plataforma completa para leitura e
-          gerenciamento de mangás, com catálogo, avaliações, comentários,
-          fórum, grupos, eventos, assinaturas e loja.
-        </li>
-
-        <li>
-          Estruturação do projeto como monorepo, com backend em Java e
-          Spring Boot, aplicação web em React e TypeScript e aplicativo
-          mobile em React Native com Expo.
-        </li>
-
-        <li>
-          Aplicação de Clean Architecture no backend e Feature-Sliced Design
-          no frontend, com separação por domínios, casos de uso e camadas.
-        </li>
-
-        <li>
-          Utilização de PostgreSQL, MongoDB e Redis, com Flyway e Mongock
-          para versionamento e evolução dos bancos de dados.
-        </li>
-
-        <li>
-          Implementação de autenticação e autorização com Spring Security e
-          JWT e documentação de APIs com OpenAPI/Swagger.
-        </li>
-
-        <li>
-          Criação de testes unitários, integração e ponta a ponta utilizando
-          JUnit, Testcontainers, Vitest, Testing Library e MSW.
-        </li>
-
-        <li>
-          Conteinerização da aplicação e dos serviços de infraestrutura com
-          Docker e Docker Compose.
-        </li>
+        <li>Desenvolvimento de plataforma web e mobile para leitura e gerenciamento de mangás, com catálogo, avaliações, comentários, fórum, grupos, assinaturas e loja.</li>
+        <li>Monorepo composto por backend em Java e Spring Boot, frontend em React e TypeScript e aplicativo móvel em React Native com Expo.</li>
+        <li>Aplicação de Clean Architecture e Feature-Sliced Design, com PostgreSQL, MongoDB, Redis, RabbitMQ, Spring Security, JWT e OpenAPI/Swagger.</li>
+        <li>Implementação de internacionalização em português, inglês e espanhol, com organização modular dos domínios e integrações entre web, mobile e backend.</li>
+        <li>Implementação de testes com JUnit, Testcontainers, Vitest, Testing Library e MSW, além de conteinerização com Docker e Docker Compose.</li>
       </ul>
     </article>
   </section>
 
   <section id="formacao-academica">
     <h2>Formação Acadêmica</h2>
-
     <p class="education-item">
-      <strong>Bacharelado em Engenharia de Software</strong>
-      — Centro Universitário Internacional Uninter
-      | Conclusão prevista: 2027
+      <strong>Bacharelado em Engenharia de Software</strong> — Centro Universitário Internacional Uninter |
+      Conclusão prevista: 2027
     </p>
   </section>
 </main>
