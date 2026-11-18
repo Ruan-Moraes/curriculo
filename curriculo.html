@@ -35,13 +35,13 @@
       margin: 0 auto;
       padding: 22px 34px;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 9.7pt;
-      line-height: 1.29;
+      font-size: 10.5pt;
+      line-height: 1.4;
       color: var(--text-color);
     }
 
     header {
-      margin-bottom: 8px;
+      margin-bottom: 14px;
     }
 
     h1 {
@@ -65,7 +65,7 @@
     }
 
     .contact-section p {
-      margin: 0 0 1px;
+      margin: 0 0 2px;
     }
 
     a {
@@ -74,14 +74,14 @@
     }
 
     section {
-      margin-bottom: 9px;
+      margin-bottom: 16px;
       break-inside: avoid;
       page-break-inside: avoid;
     }
 
     h2 {
-      margin-bottom: 4px;
-      padding-bottom: 1.5px;
+      margin-bottom: 7px;
+      padding-bottom: 3px;
       border-bottom: 1px solid var(--border-color);
       font-size: 10.7pt;
       font-weight: 700;
@@ -106,7 +106,7 @@
       flex-wrap: wrap;
       align-items: baseline;
       gap: 4px;
-      margin-bottom: 1px;
+      margin-bottom: 3px;
     }
 
     .company-name,
@@ -123,7 +123,7 @@
 
     .job-details,
     .project-details {
-      margin-bottom: 3px;
+      margin-bottom: 6px;
       font-size: 9pt;
       color: var(--muted-color);
     }
@@ -134,21 +134,20 @@
     }
 
     li {
-      margin-bottom: 2px;
+      margin-bottom: 5px;
       padding-left: 1px;
     }
 
     .skills-item {
-      margin-bottom: 1.2px;
-      line-height: 1.25;
+      margin-bottom: 3px;
     }
 
     .skills-item strong,
-    .education-item strong {
+    .detail-item strong {
       color: var(--primary-color);
     }
 
-    .education-item {
+    .detail-item {
       margin-bottom: 0;
     }
 
@@ -162,24 +161,32 @@
         max-width: none;
         margin: 0;
         padding: 0;
-        font-size: 9.65pt;
-        line-height: 1.3;
+        font-size: 9.7pt;
+        line-height: 1.2;
         print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
       }
 
-      h1 {
-        font-size: 20pt;
+      header {
+        margin-bottom: 7px;
+      }
+
+      section {
+        margin-bottom: 6px;
       }
 
       h2 {
-        font-size: 10.6pt;
+        margin-bottom: 4px;
       }
 
-      section,
-      article {
-        break-inside: avoid;
-        page-break-inside: avoid;
+      .job-details,
+      .project-details,
+      li {
+        margin-bottom: 2px;
+      }
+
+      .skills-item {
+        margin-bottom: 1.4px;
       }
     }
   </style>
@@ -189,7 +196,7 @@
 <header>
   <h1>Ruan Moraes Santos Barbosa</h1>
   <p class="professional-title">
-    Desenvolvedor de Software Full Stack | Java, Spring Boot, .NET, Next.js e React Native
+    Desenvolvedor de Software Full Stack & Mobile | Spring Boot, .NET, Next.js e React Native
   </p>
 
   <div class="contact-section">
@@ -213,28 +220,10 @@
   <section id="resumo-profissional">
     <h2>Resumo Profissional</h2>
     <p>
-      Desenvolvedor de Software Full Stack com mais de 2 anos de experiência no desenvolvimento,
-      manutenção e sustentação de aplicações web e mobile. Atuação com Java, Spring Boot, C#,
-      .NET, React, Next.js, TypeScript, React Native e Expo. Experiência na implementação de
-      funcionalidades, integração de APIs, correção de bugs, otimização de consultas SQL,
-      publicação de aplicativos Android e iOS e pipelines de CI/CD no Microsoft Azure.
-      Conhecimentos práticos em bancos relacionais e NoSQL, Redis, mensageria, Docker,
-      testes automatizados e arquitetura de software.
+      Estudo programação desde o fim de 2023 e atuo como desenvolvedor de software full stack
+      desde abril de 2025. Na CAPYS, entrego melhorias em CRM, portais e aplicativos, integro
+      sistemas e resolvo falhas em produção com as equipes de suporte.
     </p>
-  </section>
-
-  <section id="competencias-tecnicas">
-    <h2>Competências Técnicas</h2>
-    <p class="skills-item"><strong>Linguagens:</strong> Java, C#, TypeScript, JavaScript e SQL</p>
-    <p class="skills-item"><strong>Backend:</strong> Spring Boot, Spring Data JPA, Spring Security, Spring HATEOAS, ASP.NET Core, Entity Framework Core e Node.js</p>
-    <p class="skills-item"><strong>Frontend:</strong> React, Next.js, AngularJS, Tailwind CSS, Sass, Bootstrap e Handlebars</p>
-    <p class="skills-item"><strong>Mobile:</strong> React Native, Expo, Ionic e publicação para Android e iOS</p>
-    <p class="skills-item"><strong>APIs e integrações:</strong> REST, OpenAPI/Swagger, Keycloak, Webhooks, WebSockets e I18n</p>
-    <p class="skills-item"><strong>Bancos de dados e cache:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, SQLite, H2, Redis, Flyway e Mongock</p>
-    <p class="skills-item"><strong>Mensageria:</strong> RabbitMQ e conhecimentos em Apache Kafka</p>
-    <p class="skills-item"><strong>Testes:</strong> JUnit, Mockito, Vitest e Testcontainers</p>
-    <p class="skills-item"><strong>DevOps e cloud:</strong> Microsoft Azure, CI/CD, Docker, Docker Compose e Git</p>
-    <p class="skills-item"><strong>Arquitetura e práticas:</strong> Clean Architecture, Arquitetura Hexagonal, MVC, Feature-Sliced Design, SOLID, Clean Code e Design Patterns</p>
   </section>
 
   <section id="experiencia-profissional">
@@ -243,20 +232,40 @@
       <div class="job-heading">
         <span class="company-name">CAPYS</span>
         <span>—</span>
-        <span class="job-title">Desenvolvedor de Software</span>
+        <span class="job-title">Desenvolvedor de Software Trainee</span>
       </div>
       <p class="job-details">Abril de 2025 – atual | Belo Horizonte, MG | Tempo integral | Presencial</p>
 
       <ul>
-        <li>Desenvolvimento e manutenção de sistemas CRM, portais web, aplicações internas e aplicativos móveis para empresas do setor imobiliário.</li>
-        <li>Implementação e evolução de funcionalidades no backend e frontend, considerando regras de negócio, integrações entre sistemas e necessidades dos clientes.</li>
-        <li>Investigação e correção de bugs em aplicações web e mobile, desde a análise da causa até a validação e publicação da solução.</li>
-        <li>Otimização de consultas, procedures e rotinas em SQL Server por meio da análise de planos de execução, revisão de filtros, joins, índices e estatísticas.</li>
-        <li>Desenvolvimento, manutenção e publicação de aplicativos Android e iOS com React Native, Expo, Ionic, AngularJS e SQLite.</li>
-        <li>Desenvolvimento de interfaces web com React e TypeScript, além de APIs REST, integrações, Webhooks e utilização de Redis.</li>
-        <li>Atuação em pipelines de CI/CD no Microsoft Azure e suporte aos times de N1 e N2 na resolução de incidentes em produção.</li>
+        <li>Desenvolvimento e manutenção de CRM, portais web e serviços do setor imobiliário. Integrações via API com ERPs, plataformas de comunicação (Meta e Twilio) e assinatura eletrônica (DocuSign).</li>
+        <li>Desenvolvimento, manutenção e publicação de aplicativos Android e iOS na Google Play e na App Store.</li>
+        <li>Diagnóstico e resolução de falhas críticas em serviços que sustentam operações financeiras, incluindo pagamentos, com análise de logs para identificar a causa e restabelecer o serviço.</li>
+        <li>Redução do tempo de execução de consultas e rotinas de banco de dados de cerca de 2 minutos para 15 a 20 segundos, com análise dos planos de execução e ajustes de junções, filtros e índices.</li>
+        <li>Colaboração com as equipes de suporte N1 e N2, comunicando diagnósticos e soluções com clareza e alinhando prioridades conforme o impacto para os clientes.</li>
       </ul>
     </article>
+  </section>
+
+  <section id="competencias-tecnicas">
+    <h2>Competências Técnicas</h2>
+    <p class="skills-item"><strong>Linguagens:</strong> Java, C#, TypeScript, JavaScript e SQL</p>
+    <p class="skills-item"><strong>Backend Java:</strong> Spring Boot, Spring Data JPA, Hibernate, Spring Security e Spring HATEOAS</p>
+    <p class="skills-item"><strong>Backend .NET:</strong> C#, ASP.NET Core Web API e Entity Framework Core (EF Core e migrations)</p>
+    <p class="skills-item"><strong>Backend JavaScript:</strong> Node.js</p>
+    <p class="skills-item"><strong>Frontend:</strong> React, Next.js, Angular, AngularJS, HTML5, CSS3, Tailwind CSS, Sass, Bootstrap, Handlebars e Figma</p>
+    <p class="skills-item"><strong>Mobile:</strong> React Native, Expo, Ionic e publicação para Android e iOS</p>
+    <p class="skills-item"><strong>APIs e integrações:</strong> REST, OpenAPI/Swagger, Keycloak, Webhooks e WebSockets</p>
+    <p class="skills-item"><strong>Bancos de dados e cache:</strong> SQL Server, PostgreSQL, MySQL, MongoDB, SQLite, H2, Redis, Flyway e Mongock</p>
+    <p class="skills-item"><strong>Mensageria:</strong> RabbitMQ e conhecimentos em Apache Kafka</p>
+    <p class="skills-item"><strong>Testes:</strong> Java (JUnit, Mockito, Testcontainers), .NET (xUnit, Moq) e TypeScript (Vitest, Playwright e acessibilidade web)</p>
+    <p class="skills-item"><strong>Build e DevOps:</strong> Maven, NuGet, pnpm, CI/CD, Docker, Docker Compose e Git</p>
+    <p class="skills-item"><strong>Cloud:</strong> AWS (EC2, VPC, sub-redes, grupos de segurança, buckets S3, CloudWatch Logs e métricas, Elastic Load Balancing, Route 53, IAM, CloudFront, AWS WAF e ECS)</p>
+    <p class="skills-item"><strong>Redes:</strong> experiência em redes de computadores, modelo OSI, TCP/IP, UDP, DNS, HTTP/HTTPS e tabelas de roteamento</p>
+    <p class="skills-item"><strong>Engenharia de software:</strong> Big O, DDD, modelagem de dados, indexação, arquitetura orientada a eventos, processamento assíncrono, cache, escalabilidade horizontal e balanceamento de carga</p>
+    <p class="skills-item"><strong>Confiabilidade de serviços:</strong> idempotência, timeouts, retentativas, observabilidade e análise de causa raiz</p>
+    <p class="skills-item"><strong>Arquitetura e práticas:</strong> Clean Architecture, Arquitetura Hexagonal, MVC, Feature-Sliced Design, SOLID, Clean Code, Design Patterns e i18n (backend e frontend)</p>
+    <p class="skills-item"><strong>Competência complementar:</strong> Python com FastAPI em projeto pessoal (Translate API)</p>
+    <p class="skills-item"><strong>Estudos:</strong> Microsoft Azure, Kotlin, Swift, LangChain e Elasticsearch</p>
   </section>
 
   <section id="projeto-pessoal">
@@ -273,19 +282,23 @@
       </p>
 
       <ul>
-        <li>Desenvolvimento de plataforma web e mobile para leitura e gerenciamento de mangás, com catálogo, avaliações, comentários, fórum, grupos, assinaturas e loja.</li>
-        <li>Monorepo composto por backend em Java e Spring Boot, frontend em React e TypeScript e aplicativo móvel em React Native com Expo.</li>
-        <li>Aplicação de Clean Architecture e Feature-Sliced Design, com PostgreSQL, MongoDB, Redis, RabbitMQ, Spring Security, JWT e OpenAPI/Swagger.</li>
-        <li>Implementação de internacionalização em português, inglês e espanhol, com organização modular dos domínios e integrações entre web, mobile e backend.</li>
-        <li>Implementação de testes com JUnit, Testcontainers, Vitest, Testing Library e MSW, além de conteinerização com Docker e Docker Compose.</li>
+        <li>Monorepo com Java, Spring Boot, React e React Native. Modelagem em PostgreSQL, migrations com Flyway, cache com Redis e processamento assíncrono com RabbitMQ.</li>
+        <li>Aplicativo com Expo Router, Zustand, TanStack Query (React Query) e React Hook Form. Internacionalização em português, inglês e espanhol.</li>
+        <li>Testes unitários e de integração com JUnit, Testcontainers e Vitest, cobertura com JaCoCo e monitoramento com Spring Boot Actuator.</li>
       </ul>
     </article>
   </section>
 
+  <section id="idiomas">
+    <h2>Idiomas</h2>
+    <p class="detail-item"><strong>Inglês técnico</strong> (leitura).</p>
+  </section>
+
   <section id="formacao-academica">
     <h2>Formação Acadêmica</h2>
-    <p class="education-item">
-      <strong>Bacharelado em Engenharia de Software</strong> — Centro Universitário Internacional Uninter |
+    <p class="detail-item">
+      <strong>Bacharelado em Engenharia de Software</strong><br />
+      Centro Universitário Internacional Uninter |
       Conclusão prevista: 2027
     </p>
   </section>
